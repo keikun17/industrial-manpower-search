@@ -4,13 +4,14 @@
   .col-lg-6.text-right
     .section.hero
       %p Kailangan mo ba ng tao sa iyong hardware business?
-      %br
-      = link_to "Maghanap!", '#', class: "btn btn-lg btn-warning"
+      .row
+        = text_field_tag '', '', placeholder: 'Welder / Foreman', class: 'form-control'
+      .row
+        = link_to "Maghanap!", '#', class: "btn btn-lg btn-warning"
 
   .col-lg-6.text-left
     .section.hero
       %p Naghahanap ka ba ng trabaho sa construction?
-      %br
-      = link_to "Sali na", '#', class: "btn btn-lg btn-success"
+      %p= link_to "Sali na", '#', class: "btn btn-lg btn-success"
 
 

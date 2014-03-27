@@ -31,6 +31,9 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'compass-rails'
 
+gem 'activeadmin'
+gem 'meta_search'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

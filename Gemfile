@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0.rc1'
+gem 'rails', '4.1.0.rc2'
 gem 'pg'
 gem 'devise'
 
@@ -31,7 +31,11 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'compass-rails'
 
-gem 'activeadmin'
+gem 'formtastic', github: 'justinfrench/formtastic'
+gem 'ransack', github: 'activerecord-hackery/ransack', branch: 'rails-4.1'
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous', branch: 'rails-4.1'
+gem 'activeadmin', github: 'gregbell/active_admin'
+
 gem 'meta_search'
 
 # Use ActiveModel has_secure_password

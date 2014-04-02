@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title ManpowerPhilippines
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    .container
+      %topnav
+        .pull-right
+          - if candidate_signed_in?
+            = link_to "Sign out", destroy_candidate_session_path, method: :delete
+          - else
+            = link_to "Sign in", root_path
+      %p.notice= notice
+      %p.alert= alert
+      = yield

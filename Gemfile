@@ -36,7 +36,7 @@ gem 'ransack', github: 'activerecord-hackery/ransack', branch: 'rails-4.1'
 gem 'polyamorous', github: 'activerecord-hackery/polyamorous', branch: 'rails-4.1'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
-gem 'meta_search'
+# gem 'meta_search'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
